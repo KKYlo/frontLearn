@@ -1,32 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 html {
     font-size: 10px;
     font-family: arial;
 }
 body {
-    margin:0;
-    padding: 0;
     background-color: #ccc;
 }
+/*头部*//**********************************************/
 header{
-    display: inline-block;
+    display: block;
     position: fixed;
     top: 0;
     width: 100%;
     height: 7em;
-    margin: 0 auto;
+    background: url(logo.png) no-repeat 5% center;
+    background-size: 7em 7em;
     background-color: #333;
+   
+}
+header nav ul{
+    display: block;
+    float: right;
+   
+}
+header nav li{
+    display: block;
+    float:left;
+    font-size: 1.5em;
+    list-style:none;
     color:white;
+    padding: 1.54em 1.54em;
+  
+    border-top: 0;
+    }
+header nav li a{
+    padding:1.73em 1.5em;
+    color: aliceblue;
+    text-decoration:none; 
+    }
+header nav li a:hover{
+    background-color: #474747;
+    border-bottom: 2px solid red;
 }
+/*主体部分*//**********************************************/
 main {
-    margin-top: 10em;
+    margin-top: 11.6em;
 }
+
 article,aside,section{
     display: block;
+    font-size:1.6em;
     background-color: white;
+    padding: 30px;
     margin: 3em;
-    box-shadow:  3px 3px 3px#848484;
-                
+    box-shadow:  3px 3px 3px#848484;               
 }
+main  article h3{
+ padding: 10px 0;
+ color: #848484
+}
+main  article .zz{
+    color: #848484;
+    line-height: 30px;
+
+}
+/*页脚部分*/
 footer {
     display: block;
     color: white;
@@ -37,20 +78,5 @@ footer {
     text-align: center;
     line-height: 3em;
     font-size: 2em;
-       }
-header nav li{
-    display: block;
-    float:left;
-    font-size: 2em;
-    margin-top: 0.5em;
-    list-style:none;
-    }
-    header nav li a{
 
-       border: 5px solid red;
-        color: aliceblue;
-       text-decoration:none;
-      padding: 0px 15px;
-       
-        
-    }
+}
