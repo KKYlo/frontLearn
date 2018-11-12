@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+    font-family: arial;
+}
+main div{
+    display: block;
+    margin: 30px;
+    padding: 20px;
+    padding-bottom:500px;
+    box-shadow:1px 1px 1px black;
+    background-color: rgb(233, 227, 227);
+}
+
+header,article,aside{
+   border:1px solid black;
+   background-color: white;
+   margin: 15px;
+   float: left;
+}
+/*主体的页头部分*//**********************************************/
+body main header{
+    width: 18%;
+    height: 15%;
+    margin-left: 40px;
+}
+body main header img{
+    padding: 13px;
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+body main header h1{
+    padding: 13px;
+}
+/*主体的文章部分*//**********************************************/
+body main article{
+    padding: 12px;
+    font-size: 1.5em;
+    width: 60%;
+    height:40%;
+}
+body main article h2{
+    font-size: 1.2em;
+    margin:10px 0;
+}
+/*主体的侧栏部分*//**********************************************/
+body main aside{
+   padding:10px;
+   margin-left: 30px;
+    width: 7%;
+    height:65%;
+}
+body main aside img{
+    border:1px solid darkgray;
+   margin:7px 0px;
+    width:100%;
+    height: 22%;
+}
+body main aside #图1{
+    margin-top: 0;
+}
+/*页脚部分*****************************************************/
+footer{
+    clear: both;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    color: azure;
+    background-color: rgb(49, 48, 48);
+    bottom: 0;
+}
