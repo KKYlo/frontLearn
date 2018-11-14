@@ -13,7 +13,6 @@ body {
 }
 /*头部*//**********************************************/
 header{
-    display: block;
     position: fixed;
     top: 0;
     width: 100%;
@@ -24,17 +23,16 @@ header{
    
 }
 header nav ul{
-    display: block;
+    margin-top:2.4em;
     float: right;
    
 }
 header nav li{
-    display: block;
     float:left;
     font-size: 1.5em;
     list-style:none;
     color:white;
-    padding: 1.54em 0;
+    padding:auto;
     border-top: 0;
     }
 header nav li a{
