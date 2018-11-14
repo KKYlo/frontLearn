@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+    font-family: arial;
+}
+body {
+    font-size: 9px;
+    font-family: "黑体";
+    background-color: #ccc;
+    min-width: 750px;
+    overflow: auto;
+}
+/*头部*//**********************************************/
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 7em;
+    background: url(logo.png) no-repeat 2% center;
+    background-size: 7em 7em;
+    background-color: #333;
+   
+}
+header nav ul{
+    margin-top:2.4em;
+    float: right;
+   
+}
+header nav li{
+    float:left;
+    font-size: 1.5em;
+    list-style:none;
+    color:white;
+    padding:auto;
+    border-top: 0;
+    }
+header nav li a{
+    padding:1.73em 1.5em;
+    color: aliceblue;
+    text-decoration:none; 
+    }
+header nav li a:hover{
+    background-color: #474747;
+    border-bottom: 2px solid red;
+}
+/*主体的文章部分*//**********************************************/
+main {
+    margin-top: 5.6em;
+ 
+}
+main div.floatleft{
+    margin-top: 12em;
+    margin-right:450px;
+    min-width: 300px;
+}
+article,aside,section{
+    font-size:1.6em;
+    background-color: white;
+    padding: 30px;
+    margin: 3em;
+    margin-right: 1em;
+    box-shadow:  3px 3px 3px#848484;               
+}
+p{
+    line-height: 16px;
+}
+main  article h3{
+ padding: 10px 0;
+ color: #848484
+}
+main  article .zz{
+    color: #848484;
+    line-height: 30px;
+}
+main article a:hover{
+    color:red;
+}
+main article ul.项目列表 li{
+   list-style-type: none;
+}
+main article ol.排名{
+    padding-left: 15px;
+}
+main article table {
+    border-collapse: collapse;
+    border: 1px solid #848484;
+    width:100%;
+    text-align: center;
+}
+
+main article table thead tr th{
+     color: aliceblue;
+     background: #333;
+   
+}
+main article table tfoot tr{
+    color: aliceblue;
+    background: #333;
+}
+figure{
+    height:220px;
+	width: 140px;
+	border: 1px solid #aaa;
+	text-align: center;
+    margin: 10px;
+	display: inline-block;
+}
+/*主体的侧栏部分*//**********************************************/
+aside{
+    width: 350px;
+    float:right;
+    margin-top: 0;
+    padding-bottom: 5px;
+    overflow: auto;
+}
+aside h2{
+    font-size: 16px;
+    padding-left:6px;
+    border-left: 2px solid #848484;
+    
+}
+aside form{
+   padding-bottom: 0;
+}
+
+aside form div{
+    font-size: 14px;
+    margin: 20px 0;
+}
+aside form .tips{
+    float: left;
+    width: 40%;
+    text-align: right;
+    padding-right: 10px;
+}
+aside form div p{
+    margin-left: 40%;
+    font-size:10px;
+    padding:3px 10px;
+    color:#848484;
+}
+aside form div textarea{
+    height: 100px;
+    width: 200px;
+}
+aside form  div.提交按钮{
+    margin-bottom: 5px;
+}
+aside form  div.提交按钮 button{
+    color: aliceblue;
+    height: 3em;
+    width: 100%;
+    border-radius:25px 25px 25px 25px;
+    background: rgb(24, 154, 172);
+    
+}
+aside form  div.提交按钮 button:hover{
+    background: rgb(22, 100, 110);
+}
+
+/*页脚部分*//**********************************************/
+footer {
+    clear: both;
+    display: block;
+    color: white;
+    width:100%;
+    background-color: black;
+    bottom: 0;
+    height: 3em;
+    text-align: center;
+    line-height: 3em;
+    font-size: 2em;
+}
+.name{
+   color: aliceblue;
+   text-decoration: none;
+   cursor: pointer;
+}
