@@ -4,7 +4,7 @@ main{
   top: 33%;
   height:200px;
   width: 400px;
-  background-color: darkgray;
+  background-color: red;
 }
 div .round1{
   height: 50px;
@@ -13,6 +13,11 @@ div .round1{
   border-radius: 0 0 50px  0;
   
 }
+main p {
+  color: beige;
+ margin-left: 110px;
+ margin-top: 40px;
+}
 div .round2{
 
 height: 50px;
@@ -20,5 +25,5 @@ height: 50px;
   background-color: gold;
   border-radius: 50px 0 0 0;
   margin-left:350px;
-  margin-top: 100px;
+  margin-top: 40px;
 }
