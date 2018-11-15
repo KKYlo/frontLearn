@@ -19,10 +19,13 @@ div .round1{
   border-radius: 0 0 50px  0;
   
 }
+main{
+  min-width:400px;
+}
 main p {
   color: beige;
- margin-left: 110px;
- margin-top: 40px;
+ padding-left: 95px;
+ padding-top: 25px;
 }
 div .round2{
 
@@ -31,5 +34,5 @@ height: 50px;
   background-color: gold;
   border-radius: 50px 0 0 0;
   margin-left:350px;
-  margin-top: 39px;
+  margin-top: 38.3px;
 }
