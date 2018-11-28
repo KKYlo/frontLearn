@@ -333,7 +333,8 @@ main .h1{
     text-align: center;
     float: left;
     font-size: 260px;
-    color: #eeeed6;
+    color:#fdfdf5;
+    opacity: 0.15;
 }
 main .h2{
     border-left:4px solid #fff;
