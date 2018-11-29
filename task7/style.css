@@ -231,6 +231,8 @@ main section.s4{
     height: 220px;
     background: url(img/pic02.jpg) no-repeat;
     background-size:100% 220px;
+    max-width: 1500px;
+    overflow: auto;
 }
 main section.s4 div.s41{
     text-align: center;
@@ -241,7 +243,7 @@ main section.s4 div.s41 p{
 }
 main section.s4 div.s41 p:first-child{
     font-size: 25px;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 main section.s4 div.s41 p:last-child{
     margin-top: 5px;
@@ -252,8 +254,18 @@ main section.s4 div.s41 span{
     height: 20px;
     width: 40px;
     border-top:2px solid white;
-    transition: width 10s ease-in-out;
+    transition: width 15s ease-in-out;
 }
 main section.s4 div.s41 span:hover{
-    width: 2340px;
+    width: 10000px;
+}
+main section.s4 div.cd{
+position: relative;
+display: inline-block;
+font-size: 30px;
+width: 700px;
+height: 30px;
+top:0;
+left:1600px;
+color: red;
 }
