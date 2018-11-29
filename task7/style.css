@@ -231,7 +231,6 @@ main section.s4{
     height: 220px;
     background: url(img/pic02.jpg) no-repeat;
     background-size:100% 220px;
-    max-width: 1500px;
     overflow: auto;
 }
 main section.s4 div.s41{
@@ -257,7 +256,7 @@ main section.s4 div.s41 span{
     transition: width 15s ease-in-out;
 }
 main section.s4 div.s41 span:hover{
-    width: 10000px;
+    width: 5000px;
 }
 main section.s4 div.cd{
 position: relative;
