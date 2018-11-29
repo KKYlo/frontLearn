@@ -378,7 +378,7 @@ main .m324{
 main .l1{
     position: absolute;
     bottom: 90px;
-    left:-35px;
+    left:-20px;
     font-style: normal;
     font-size: 72px;
     color: #d45d5c;
@@ -387,8 +387,8 @@ main .l1{
 }
 main .l2{
     position: absolute;
-    bottom: 0px;
-    right: 20px;
+    bottom: 8px;
+    right: 30px;
     font-style: normal;
     font-size: 72px;
     color: #d45d5c;
