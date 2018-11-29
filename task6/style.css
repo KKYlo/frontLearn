@@ -346,12 +346,14 @@ main .h2{
     position: relative;
     border-left:4px solid #fff;
     float: right;
-    width: 42%;
+    width: 35%;
+    right: 10px;
     height: 120px;
     text-align: center;
     vertical-align: middle;
     top:22px;
     padding-top: 6px;
+    padding-left: 2px;
 }
 .h21 p{
     font-size: 18px;
