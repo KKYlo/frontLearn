@@ -7,8 +7,6 @@ html{
     font-size: 10px;
     background-color: darkgrey;
     margin: 0;   
-    min-width:1308px;
-    min-height: 980px;
     overflow: auto;
 }
 body{
@@ -366,6 +364,7 @@ main .h2{
     line-height: 10px;
 }
 main .m324{
+    display: inline-block;
     position: absolute;
     top:168px;
     left:255px;
