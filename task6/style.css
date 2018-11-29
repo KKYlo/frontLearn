@@ -343,14 +343,18 @@ main .h1{
     opacity: 0.15;
 }
 main .h2{
+    position: relative;
     border-left:4px solid #fff;
-    margin-left: 125px;
-    margin-top: 24px;
-    margin-right: 10px;
+    float: right;
+    width: 42%;
+    height: 120px;
     text-align: center;
+    vertical-align: middle;
+    top:22px;
+    padding-top: 6px;
 }
 .h21 p{
-    font-size: 21px;
+    font-size: 18px;
     font-family: "黑体";
     font-style: oblique;
 }
