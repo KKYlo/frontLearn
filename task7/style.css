@@ -230,7 +230,7 @@ main section.s4{
     width: 100%;
     height: 220px;
     background: url(img/pic02.jpg) no-repeat;
-    background-size:100% auto;
+    background-size:100%;
 }
 main section.s4 div.s41{
     text-align: center;
