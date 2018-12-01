@@ -781,7 +781,7 @@ main .s9 div.l9{
     top:10%;
     width: 22%;
     height: 400px;
-    left: 13%;
+    left: 16%;
     display: inline-block;
     font-size: 20px;
     text-align: left;
@@ -823,7 +823,7 @@ main .s9 div.r9{
     text-align: left;
     position: absolute;
     top:8%;
-    left: 40%;
+    left: 43%;
 }
 
 main .s9 div.r9 input,textarea {
