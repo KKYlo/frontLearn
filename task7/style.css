@@ -226,16 +226,16 @@ main section.s3 p{
     font-size: 60px;
     text-align: center;
     top:240px;
-    left: 15%;
+    left: 20%;
     cursor: pointer;
-    transition: 20s all ease-in-out;
+    transition: 30s all ease-in-out;
 }
 main section.s3 p:last-child{
     top:210px;
-    left: 10%;
+    left: 15%;
     color:#EDEAEA;
     z-index: -1;
-    transition: 25s all ease-in-out;
+    transition: 50s all ease-in-out;
  
 }
 main section.s3:hover p:first-child{
