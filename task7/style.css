@@ -946,13 +946,24 @@ footer{
     text-align: center;
     background-color: #30303A;
 }
-footer .f1,.f2{
+footer .f1 span{
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+}
+footer .f2 a{
     width: 300px;
     height: 60px;
     line-height: 60px;
     text-align: center;
     color: #fff;
     font-size: 10px;
-    float: left;
+    float: right;
     cursor: pointer;
+    text-decoration: none;
 }
